@@ -1,0 +1,52 @@
+body {
+    background-color: lightgray;
+}
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70vh;
+}
+img {
+    height: 500px;
+    width: 800px;
+    border: 6px solid goldenrod;
+    box-shadow: 1px 3px 2px goldenrod;
+    border-image:  10 stretch;
+    border-radius: 6px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 0 ;
+
+}
+#container > h1, h3 {
+      font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+    color: goldenrod;
+    margin: 6px;
+    margin-bottom: 15px;
+
+}
+button {
+     font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+    color: goldenrod;
+    border:1px solid transparent;
+    border-radius: 6px;
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.1, 1.1);
+}
