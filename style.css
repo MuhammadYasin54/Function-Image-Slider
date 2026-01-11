@@ -47,6 +47,14 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+@media and (max-width:400px) {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
 button:hover {
     transform: scale(1.1, 1.1);
 }
+
