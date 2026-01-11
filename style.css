@@ -67,6 +67,14 @@ button {
     #container {
         margin-bottom:10px;
 }
+    @media (max-width:1050px) {
+    img {
+        height: 425px;
+        width: 425px;
+    }
+    #container {
+        margin-bottom:10px;
+}
 @media (max-width:700px) {
     img {
         height: 300px;
@@ -89,6 +97,7 @@ button {
 button:hover {
     transform: scale(1.1, 1.1);
 }
+
 
 
 
