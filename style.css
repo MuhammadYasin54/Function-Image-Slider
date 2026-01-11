@@ -49,14 +49,28 @@ button {
 }
 @media (max-width:400px) {
     img {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width:900px) {
+    img {
+        height: 400px;
+        width: 400px;
+    }
+}
+@media (max-width:700px) {
+    img {
         height: 300px;
         width: 300px;
     }
 }
 
+
 button:hover {
     transform: scale(1.1, 1.1);
 }
+
 
 
 
