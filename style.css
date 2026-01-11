@@ -47,6 +47,12 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+@media (max-width:950px) {
+    img {
+        height: 350px;
+        width: 350px;
+    }
+}
 @media (max-width:400px) {
     img {
         height: 200px;
@@ -58,6 +64,8 @@ button {
         height: 400px;
         width: 400px;
     }
+    #container {
+        margin-bottom:10px;
 }
 @media (max-width:700px) {
     img {
@@ -65,11 +73,18 @@ button {
         width: 300px;
     }
 }
+@media (max-width:250px) {
+    img {
+        height: 125px;
+        width: 125px;
+    }
+}
 
 
 button:hover {
     transform: scale(1.1, 1.1);
 }
+
 
 
 
